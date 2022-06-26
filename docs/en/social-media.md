@@ -42,8 +42,8 @@ pageClass: routes
 
 Type
 
-| artwork | crafts | music | writing | 
-| ---- | ---- | ---- | ---- | 
+| artwork | crafts | music | writing |
+| ---- | ---- | ---- | ---- |
 | artwork | crafts | music | writing |
 
 </RouteEn>
@@ -72,7 +72,7 @@ Type
 
 <RouteEn author="TigerCubDen" example="/furaffinity/watchers/malikshadowclaw" path="/furaffinity/watchers/:username" :paramsDesc="['Username, can find in userpage']" radar="1"/>
 
-### User's Commission Information 
+### User's Commission Information
 
 <RouteEn author="TigerCubDen" example="/furaffinity/commissions/flashlioness" path="/furaffinity/commissions/:username" :paramsDesc="['Username, can find in userpage']" radar="1"/>
 
@@ -299,6 +299,12 @@ Due to Telegram restrictions, some channels involving pornography, copyright, an
 ### Telegram Blog
 
 <RouteEn author="fengkx" example="/telegram/blog" path="/telegram/blog" />
+
+## TikTok
+
+### User
+
+<RouteEn author="TonyRL" example="/tiktok/user/@linustech" path="/tiktok/user/:user" :paramsDesc="['User ID, including @']" anticrawler="1" puppeteer="1" radar="1" rssbud="1"/>
 
 ## Twitter
 
